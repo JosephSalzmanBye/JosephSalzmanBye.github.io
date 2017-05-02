@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hover</title>
+<script src="assets/js/jquery-3.2.0.min.js" charset="utf-8"></script>
+    <script src="assets/js/main.js" charset="utf-8"></script>
+
+      <link rel="stylesheet" href="assets/css/main.css">
+  </head>
+  <body>
+
+    <a href="FullTexts.html">Full texts:</a>
+
+    Excerpt A
+
+    The Social Media Reader:
+    Now, consider a joke that exists on the Internet. The speed of transmission
+is increased yet again, in an incredible way. Space is overcome: computers
+connect to one another through far-reaching networks. Time is overcome:
+the digitally represented information is available as long as the server
+hosting it remains online. A joke stored on a website can be viewed by as
+many people that want to view it, as many times as they want to, as quickly as
+they can request it.
+An online joke’s fidelity of form, however, is subject to a unique contradiction.
+Being digital, the joke is perfectly replicable. Copy and paste functions (or their
+equivalents) are ubiquitous, expected parts of sofware platforms.6
+ However, a piece of digital media in the modern landscape of robust and varied manipulation
+sofware renders it also perfectly malleable. Individual sections of a piece of
+digital media can be lifed, manipulated, and reapplied with little efort.
+
+
+  </body>
+</html>
