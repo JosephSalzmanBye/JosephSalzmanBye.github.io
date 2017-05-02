@@ -15,7 +15,10 @@ $(document).ready(function() {
      $('.MellonImg').removeClass('enlarge');
       $(this).toggleClass('enlarge');
   });
-
+  $('.RickAstley').mouseenter(function() {
+      $(this).toggleClass('enlarge');
+  });
+  
   $('.MellonImg').mouseenter(function() {
     $('.MellonImgTxt').toggleClass('showme');
     $('.SmileyEmojiTxt').removeClass('showme');
