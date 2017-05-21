@@ -1,5 +1,9 @@
 
+/* internal styles */
 
+a {
+  text-decoration: none;
+}
 /* Reading styles here */
 .readingBody{
   margin-top: 5%;
