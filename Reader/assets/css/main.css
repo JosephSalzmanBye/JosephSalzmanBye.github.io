@@ -5,6 +5,7 @@ a {
   text-decoration: none;
 }
 /* Reading styles here */
+
 .readingBody{
   margin-top: 5%;
   width: 45%;
@@ -21,15 +22,77 @@ a {
   text-align: center;
 }
 
-.inlineImg {
- height: 15px;
+/* insert image styles here */
+
+.insert1 {
+  height: 15px;
 }
+.insert2 {
+  height: 15px;
+}
+.insert3 {
+  height: 15px;
+}
+.insert4 {
+  height: 5%;
+  width: 15px;
+}
+.insert5 {
+  height: 15px;
+}
+.insert6 {
+  height: 15px;
+}
+.insert7 {
+  height: 15px;
+}
+.insert8 {
+  height: 15px;
+}
+.insert9 {
+  height: 15px;
+}
+.insert10 {
+  height: 15px;
+}
+.insert11 {
+  height: 15px;
+}
+.insert12 {
+  height: 15px;
+}
+.insert13 {
+  height: 15px;
+}
+.insert14 {
+  height: 15px;
+}
+.insert15 {
+  height: 15px;
+}
+.insert16 {
+  height: 15px;
+}
+.insert17 {
+  height: 15px;
+}
+
+
 
 /* Response styles here */
 .responseBox{
   width: 40%;
-  margin-left: 55%;
-  border: solid 3px red;
+  height: 100vh;
+  position: fixed;
+  top:0px;
+  right:0px;
+  overflow: scroll;
+  display: block;
+  background-color: lightgray;
+}
+
+.responseImg {
+  height: 50px;
 }
 
 /* Menu styles here */
