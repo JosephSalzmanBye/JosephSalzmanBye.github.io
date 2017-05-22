@@ -14,14 +14,105 @@ a {
   font-size: 10pt;
 }
 .readingTitle{
-  margin-top: 10%;
-  width: 45%;
-  margin-left: 5%;
+  margin-top: 5%;
+  width: 50%;
+  margin-left: 7%;
   font-family: Arial;
   font-size: 36pt;
   text-align: center;
 }
+/* footnote styles here */
 
+.reference {
+  background-color: yellow;
+  width: auto;
+  color: red;
+  text-align: center;
+}
+.footnote {
+  position: fixed;
+  width: 50%;
+  margin-left: 6%;
+  bottom:0%;
+  border: solid red;
+  background-color: lightgray;
+}
+.footnoteTxt {
+  text-align: center;
+
+}
+.footnote1 {
+  display:none;
+}
+.footnote1.show {
+  display: block;
+}
+.footnote2 {
+  display:none;
+}
+.footnote2.show {
+  display: block;
+}
+.footnote3 {
+  display:none;
+}
+.footnote3.show {
+  display: block;
+}
+.footnote4 {
+  display:none;
+}
+.footnote4.show {
+  display: block;
+}
+.footnote5 {
+  display:none;
+}
+.footnote5.show {
+  display: block;
+}
+.footnote6 {
+  display:none;
+}
+.footnote6.show {
+  display: block;
+}
+.footnote7 {
+  display:none;
+}
+.footnote7.show {
+  display: block;
+}
+.footnote8 {
+  display:none;
+}
+.footnote8.show {
+  display: block;
+}
+.footnote9 {
+  display:none;
+}
+.footnote9.show {
+  display: block;
+}
+.footnote10 {
+  display:none;
+}
+.footnote10.show {
+  display: block;
+}
+.footnote11 {
+  display:none;
+}
+.footnote11.show {
+  display: block;
+}
+.footnote12 {
+  display:none;
+}
+.footnote12.show {
+  display: block;
+}
 /* insert image styles here */
 
 .inlineImg.enlarge {
