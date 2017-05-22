@@ -24,56 +24,78 @@ a {
 
 /* insert image styles here */
 
+.inlineImg.enlarge {
+  height: 100px;
+  transition: 1s;
+}
+
 .insert1 {
+  transition: 1s;
   height: 15px;
 }
 .insert2 {
+  transition: 1s;
   height: 15px;
 }
 .insert3 {
+  transition: 1s;
   height: 15px;
 }
 .insert4 {
-  height: 5%;
-  width: 15px;
+  transition: 1s;
+  height: 15px;
+
 }
 .insert5 {
+  transition: 1s;
   height: 15px;
 }
 .insert6 {
+  transition: 1s;
   height: 15px;
 }
 .insert7 {
+  transition: 1s;
   height: 15px;
 }
 .insert8 {
+  transition: 1s;
   height: 15px;
 }
 .insert9 {
+  transition: 1s;
   height: 15px;
 }
 .insert10 {
+  transition: 1s;
   height: 15px;
 }
 .insert11 {
+  transition: 1s;
   height: 15px;
 }
 .insert12 {
+  transition: 1s;
   height: 15px;
 }
 .insert13 {
+  transition: 1s;
   height: 15px;
 }
 .insert14 {
+  transition: 1s;
   height: 15px;
 }
 .insert15 {
+  transition: 1s;
   height: 15px;
 }
 .insert16 {
+  transition: 1s;
   height: 15px;
 }
 .insert17 {
+  transition: 1s;
   height: 15px;
 }
 
@@ -90,10 +112,29 @@ a {
   display: block;
   background-color: lightgray;
 }
+    /*setting response height values so images don't crash into each other */
+.response {
 
-.responseImg {
-  height: 50px;
+  background-color: white;
+  margin-top: 25px;
+  height: 150px;
 }
+.insert1Response {
+  display:none;
+}
+.insert1Response.show {
+  display: block;
+}
+.responseImg {
+  height: 150px;
+  float:left;
+}
+
+.responseTxt {
+
+}
+
+
 
 /* Menu styles here */
 
