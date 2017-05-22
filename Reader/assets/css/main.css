@@ -103,8 +103,9 @@ a {
 
 /* Response styles here */
 .responseBox{
+  border: solid red;
   width: 40%;
-  height: 100vh;
+  height: 99vh;
   position: fixed;
   top:0px;
   right:0px;
