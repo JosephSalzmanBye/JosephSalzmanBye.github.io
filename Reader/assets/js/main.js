@@ -14,6 +14,14 @@
     $('.insert1Response').addClass('show');
   });
 
+/*menu */
+$('.menu').mouseenter(function() {
+  $('.menu').addClass('moveRight');
+});
+
+$('.menu').mouseleave(function() {
+  $('.menu').removeClass('moveRight');
+});
 
 /* Reading A footnotes */
 $('.reference1').mouseenter(function() {
@@ -114,7 +122,13 @@ $('.reference14').mouseenter(function() {
 $('.reference14').mouseleave(function() {
   $('.footnote14  ').removeClass('show');
 });
+$('.reference15').mouseenter(function() {
+  $('.footnote15').addClass('show');
+});
 
+$('.reference15').mouseleave(function() {
+  $('.footnote15  ').removeClass('show');
+});
 
 
 

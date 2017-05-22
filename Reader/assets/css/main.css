@@ -3,9 +3,13 @@
 
 a {
   text-decoration: none;
+  color: red;
+}
+
+ul {
+  list-style-type: decimal;
 }
 /* Reading styles here */
-
 .readingBody{
   margin-top: 5%;
   width: 50%;
@@ -14,12 +18,25 @@ a {
   font-size: 10pt;
 }
 .readingTitle{
+  color: red;
   margin-top: 5%;
   width: 50%;
   margin-left: 7%;
   font-family: Arial;
   font-size: 36pt;
   text-align: center;
+}
+.readingAuthor{
+  margin-top: 5%;
+  width: 50%;
+  margin-left: 7%;
+  font-family: Arial;
+  font-size: 36pt;
+  text-align: center;
+}
+.notes {
+  font-family: courier;
+  font-size: 8pt;
 }
 /* footnote styles here */
 
@@ -35,10 +52,13 @@ a {
   margin-left: 6%;
   bottom:0%;
   border: solid red;
-  background-color: lightgray;
+  background-color: white;
 }
 .footnoteTxt {
+  color: red;
   text-align: center;
+  font-size: 9pt;
+  font-family: arial;
 
 }
 .footnote1 {
@@ -111,6 +131,24 @@ a {
   display:none;
 }
 .footnote12.show {
+  display: block;
+}
+.footnote13 {
+  display:none;
+}
+.footnote13.show {
+  display: block;
+}
+.footnote14 {
+  display:none;
+}
+.footnote14.show {
+  display: block;
+}
+.footnote15 {
+  display:none;
+}
+.footnote15.show {
   display: block;
 }
 /* insert image styles here */
@@ -194,7 +232,7 @@ a {
 
 /* Response styles here */
 .responseBox{
-  border: solid red;
+
   width: 40%;
   height: 99vh;
   position: fixed;
@@ -202,7 +240,8 @@ a {
   right:0px;
   overflow: scroll;
   display: block;
-  background-color: lightgray;
+  
+
 }
     /*setting response height values so images don't crash into each other */
 .response {
@@ -211,6 +250,8 @@ a {
   background-color: white;
   margin-top: 3%;
   height: 150px;
+
+
 }
 .insert1Response {
   display:none;
@@ -221,6 +262,7 @@ a {
 .responseImg {
   height: 150px;
   float:left;
+  border: solid 5px red;
 }
 
 .responseTxt {
@@ -235,11 +277,26 @@ a {
   height: 99%;
   position: fixed;
   top: 0%;
-  left:-15%;
-  width: 20%;
+  left:-25%;
+  width: 30%;
   border: solid 3px red;
   display: flex;
   flex-direction: column;
-  background-color: lightgrey;
+  background-color: white;
   flex: 1;
+  transition: .5s;
+}
+.menu.moveRight {
+  left: 0%;
+  transition: .5s;
+}
+.menuItem {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 28pt;
+  margin-top:30%;
+  margin: 25% 20% 6% 15%;
+  text-align: center;
+
+
 }
