@@ -8,8 +8,8 @@ a {
 
 .readingBody{
   margin-top: 5%;
-  width: 45%;
-  margin-left: 5%;
+  width: 50%;
+  margin-left: 7%;
   font-family: courier;
   font-size: 10pt;
 }
@@ -115,9 +115,10 @@ a {
 }
     /*setting response height values so images don't crash into each other */
 .response {
-
+  margin-left: 3%;
+  margin-right: 3%;
   background-color: white;
-  margin-top: 25px;
+  margin-top: 3%;
   height: 150px;
 }
 .insert1Response {
