@@ -308,7 +308,7 @@ ul {
 /* insert image styles here */
 
 .inlineImg.enlarge {
-  height: 100px;
+  height: 125px;
   transition: 1s;
 }
 

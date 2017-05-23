@@ -1,0 +1,457 @@
+
+/* internal styles */
+body {
+  background-color: gold;
+}
+a {
+  text-decoration: none;
+  color: red;
+}
+
+ul {
+  list-style-type: decimal;
+}
+/* Reading styles here */
+.readingBody{
+  margin-top: 5%;
+  width: 50%;
+  margin-left: 7%;
+  font-family: courier;
+  font-size: 10pt;
+}
+.readingTitle{
+  color: red;
+  margin-top: 5%;
+  width: 50%;
+  margin-left: 7%;
+  font-family: Arial;
+  font-size: 36pt;
+  text-align: center;
+}
+.readingAuthor{
+  margin-top: 5%;
+  width: 50%;
+  margin-left: 7%;
+  font-family: Arial;
+  font-size: 36pt;
+  text-align: center;
+}
+.notes {
+  font-family: courier;
+  font-size: 8pt;
+}
+/* footnote styles here */
+
+.reference {
+  background-color: red;
+
+  width: auto;
+  color: yellow;
+  text-align: center;
+}
+.footnote {
+  position: fixed;
+  width: 50%;
+  margin-left: 6%;
+  bottom:0%;
+  border: solid red;
+  background-color: white;
+}
+.footnoteTxt {
+  color: red;
+  text-align: center;
+  font-size: 9pt;
+  font-family: arial;
+
+}
+.footnote1 {
+  display:none;
+}
+.footnote1.show {
+  display: block;
+}
+.footnote2 {
+  display:none;
+}
+.footnote2.show {
+  display: block;
+}
+.footnote3 {
+  display:none;
+}
+.footnote3.show {
+  display: block;
+}
+.footnote4 {
+  display:none;
+}
+.footnote4.show {
+  display: block;
+}
+.footnote5 {
+  display:none;
+}
+.footnote5.show {
+  display: block;
+}
+.footnote6 {
+  display:none;
+}
+.footnote6.show {
+  display: block;
+}
+.footnote7 {
+  display:none;
+}
+.footnote7.show {
+  display: block;
+}
+.footnote8 {
+  display:none;
+}
+.footnote8.show {
+  display: block;
+}
+.footnote9 {
+  display:none;
+}
+.footnote9.show {
+  display: block;
+}
+.footnote10 {
+  display:none;
+}
+.footnote10.show {
+  display: block;
+}
+.footnote11 {
+  display:none;
+}
+.footnote11.show {
+  display: block;
+}
+.footnote12 {
+  display:none;
+}
+.footnote12.show {
+  display: block;
+}
+.footnote13 {
+  display:none;
+}
+.footnote13.show {
+  display: block;
+}
+.footnote14 {
+  display:none;
+}
+.footnote14.show {
+  display: block;
+}
+.footnote15 {
+  display:none;
+}
+.footnote15.show {
+  display: block;
+}
+.footnoteC1 {
+  display:none;
+}
+.footnoteC1.show {
+  display: block;
+}
+.footnoteC2 {
+  display:none;
+}
+.footnoteC2.show {
+  display: block;
+}
+.footnoteC3 {
+  display:none;
+}
+.footnoteC3.show {
+  display: block;
+}
+.footnoteC4 {
+  display:none;
+}
+.footnoteC4.show {
+  display: block;
+}
+.footnoteC5 {
+  display:none;
+}
+.footnoteC5.show {
+  display: block;
+}
+.footnoteC6 {
+  display:none;
+}
+.footnoteC6.show {
+  display: block;
+}
+.footnoteC7 {
+  display:none;
+}
+.footnoteC7.show {
+  display: block;
+}
+.footnoteC8 {
+  display:none;
+}
+.footnoteC8.show {
+  display: block;
+}
+.footnoteC9 {
+  display:none;
+}
+.footnoteC9.show {
+  display: block;
+}
+.footnoteC10 {
+  display:none;
+}
+.footnoteC10.show {
+  display: block;
+}
+.footnoteC11 {
+  display:none;
+}
+.footnoteC11.show {
+  display: block;
+}
+.footnoteC12 {
+  display:none;
+}
+.footnoteC12.show {
+  display: block;
+}
+.footnoteC13 {
+  display:none;
+}
+.footnoteC13.show {
+  display: block;
+}
+.footnoteC14 {
+  display:none;
+}
+.footnoteC14.show {
+  display: block;
+}
+.footnoteC15 {
+  display:none;
+}
+.footnoteC15.show {
+  display: block;
+}
+.footnoteC16 {
+  display:none;
+}
+.footnoteC16.show {
+  display: block;
+}
+.footnoteC17 {
+  display:none;
+}
+.footnoteC17.show {
+  display: block;
+}
+.footnoteC18 {
+  display:none;
+}
+.footnoteC18.show {
+  display: block;
+}
+.footnoteC19 {
+  display:none;
+}
+.footnoteC19.show {
+  display: block;
+}
+.footnoteC20 {
+  display:none;
+}
+.footnoteC20.show {
+  display: block;
+}
+.footnoteC21 {
+  display:none;
+}
+.footnoteC21.show {
+  display: block;
+}
+.footnoteC22 {
+  display:none;
+}
+.footnoteC22.show {
+  display: block;
+}
+.footnoteC23 {
+  display:none;
+}
+.footnoteC23.show {
+  display: block;
+}
+.footnoteC24 {
+  display:none;
+}
+.footnoteC24.show {
+  display: block;
+}
+.footnoteC25 {
+  display:none;
+}
+.footnoteC25.show {
+  display: block;
+}
+
+/* insert image styles here */
+
+.inlineImg.enlarge {
+  height: 125px;
+  transition: 1s;
+}
+
+.insert1 {
+  transition: 1s;
+  height: 15px;
+}
+.insert2 {
+  transition: 1s;
+  height: 15px;
+}
+.insert3 {
+  transition: 1s;
+  height: 15px;
+}
+.insert4 {
+  transition: 1s;
+  height: 15px;
+
+}
+.insert5 {
+  transition: 1s;
+  height: 15px;
+}
+.insert6 {
+  transition: 1s;
+  height: 15px;
+}
+.insert7 {
+  transition: 1s;
+  height: 15px;
+}
+.insert8 {
+  transition: 1s;
+  height: 15px;
+}
+.insert9 {
+  transition: 1s;
+  height: 15px;
+}
+.insert10 {
+  transition: 1s;
+  height: 15px;
+}
+.insert11 {
+  transition: 1s;
+  height: 15px;
+}
+.insert12 {
+  transition: 1s;
+  height: 15px;
+}
+.insert13 {
+  transition: 1s;
+  height: 15px;
+}
+.insert14 {
+  transition: 1s;
+  height: 15px;
+}
+.insert15 {
+  transition: 1s;
+  height: 15px;
+}
+.insert16 {
+  transition: 1s;
+  height: 15px;
+}
+.insert17 {
+  transition: 1s;
+  height: 15px;
+}
+
+
+
+/* Response styles here */
+.responseBox{
+
+  width: 40%;
+  height: 99vh;
+  position: fixed;
+  top:0px;
+  right:0px;
+  overflow: scroll;
+  display: block;
+
+
+}
+    /*setting response height values so images don't crash into each other */
+.response {
+  margin-left: 3%;
+  margin-right: 3%;
+  background-color: white;
+  margin-top: 3%;
+  height: 150px;
+
+
+}
+.insert1Response {
+  display:none;
+}
+.insert1Response.show {
+  display: block;
+}
+.responseImg {
+  height: 150px;
+  float:left;
+  border: solid 5px red;
+}
+
+.responseTxt {
+  font-family: arial;
+  font-size: 10pt;
+
+}
+
+
+
+/* Menu styles here */
+
+.menu {
+  height: 99%;
+  position: fixed;
+  top: 0%;
+  left:-25%;
+  width: 30%;
+  border: solid 3px red;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  flex: 1;
+  transition: .5s;
+}
+.menu.moveRight {
+  left: 0%;
+  transition: .5s;
+}
+.menuItem {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 28pt;
+  margin: 25% 20% 6% 15%;
+  text-align: center;
+
+
+}
