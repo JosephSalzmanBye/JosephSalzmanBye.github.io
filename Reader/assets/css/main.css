@@ -1,6 +1,8 @@
 
 /* internal styles */
-
+body {
+  background-color: gold;
+}
 a {
   text-decoration: none;
   color: red;
@@ -41,9 +43,10 @@ ul {
 /* footnote styles here */
 
 .reference {
-  background-color: yellow;
+  background-color: red;
+
   width: auto;
-  color: red;
+  color: yellow;
   text-align: center;
 }
 .footnote {
@@ -151,6 +154,157 @@ ul {
 .footnote15.show {
   display: block;
 }
+.footnoteC1 {
+  display:none;
+}
+.footnoteC1.show {
+  display: block;
+}
+.footnoteC2 {
+  display:none;
+}
+.footnoteC2.show {
+  display: block;
+}
+.footnoteC3 {
+  display:none;
+}
+.footnoteC3.show {
+  display: block;
+}
+.footnoteC4 {
+  display:none;
+}
+.footnoteC4.show {
+  display: block;
+}
+.footnoteC5 {
+  display:none;
+}
+.footnoteC5.show {
+  display: block;
+}
+.footnoteC6 {
+  display:none;
+}
+.footnoteC6.show {
+  display: block;
+}
+.footnoteC7 {
+  display:none;
+}
+.footnoteC7.show {
+  display: block;
+}
+.footnoteC8 {
+  display:none;
+}
+.footnoteC8.show {
+  display: block;
+}
+.footnoteC9 {
+  display:none;
+}
+.footnoteC9.show {
+  display: block;
+}
+.footnoteC10 {
+  display:none;
+}
+.footnoteC10.show {
+  display: block;
+}
+.footnoteC11 {
+  display:none;
+}
+.footnoteC11.show {
+  display: block;
+}
+.footnoteC12 {
+  display:none;
+}
+.footnoteC12.show {
+  display: block;
+}
+.footnoteC13 {
+  display:none;
+}
+.footnoteC13.show {
+  display: block;
+}
+.footnoteC14 {
+  display:none;
+}
+.footnoteC14.show {
+  display: block;
+}
+.footnoteC15 {
+  display:none;
+}
+.footnoteC15.show {
+  display: block;
+}
+.footnoteC16 {
+  display:none;
+}
+.footnoteC16.show {
+  display: block;
+}
+.footnoteC17 {
+  display:none;
+}
+.footnoteC17.show {
+  display: block;
+}
+.footnoteC18 {
+  display:none;
+}
+.footnoteC18.show {
+  display: block;
+}
+.footnoteC19 {
+  display:none;
+}
+.footnoteC19.show {
+  display: block;
+}
+.footnoteC20 {
+  display:none;
+}
+.footnoteC20.show {
+  display: block;
+}
+.footnoteC21 {
+  display:none;
+}
+.footnoteC21.show {
+  display: block;
+}
+.footnoteC22 {
+  display:none;
+}
+.footnoteC22.show {
+  display: block;
+}
+.footnoteC23 {
+  display:none;
+}
+.footnoteC23.show {
+  display: block;
+}
+.footnoteC24 {
+  display:none;
+}
+.footnoteC24.show {
+  display: block;
+}
+.footnoteC25 {
+  display:none;
+}
+.footnoteC25.show {
+  display: block;
+}
+
 /* insert image styles here */
 
 .inlineImg.enlarge {
