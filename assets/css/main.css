@@ -1,7 +1,7 @@
 
 /* internal styles */
 body {
-  background-color: gold;
+  background-color: #edf1fe;
 }
 a {
   text-decoration: none;
@@ -11,30 +11,61 @@ a {
 ul {
   list-style-type: decimal;
 }
+
+h2{
+  color: #ff0000;
+}
+h3 {
+  color: #ff0000;
+}
+h5 {
+
+}
+/*main menu styles here */
+.mainTitle {
+  margin-top: 10%;
+
+  font-weight: bold;
+  font-family: arial;
+  font-size: 16pt;
+  text-align: center;
+  margin-bottom: 10%;
+}
+.link {
+  margin-left: 10%;
+}
 /* Reading styles here */
 .readingBody{
-  margin-top: 5%;
+  color: black;
+  background-color:#d6daf0;
+  margin-top: 0%;
   width: 50%;
   margin-left: 7%;
-  font-family: courier;
+  font-family: arial;
   font-size: 10pt;
+
+  padding: .3%;
 }
 .readingTitle{
-  color: red;
+  color: #af0a0f;;
   margin-top: 5%;
   width: 50%;
   margin-left: 7%;
   font-family: Arial;
   font-size: 36pt;
   text-align: center;
+}
+.readingThread{
+  color: black;
 }
 .readingAuthor{
   margin-top: 5%;
   width: 50%;
   margin-left: 7%;
   font-family: Arial;
-  font-size: 36pt;
-  text-align: center;
+  font-size: 10pt;
+  color: #117743;
+  font-weight: bold;
 }
 .notes {
   font-family: courier;
@@ -43,10 +74,10 @@ ul {
 /* footnote styles here */
 
 .reference {
-  background-color: red;
+  border-bottom: #b7c5d9 solid;
 
   width: auto;
-  color: yellow;
+  color: black;
   text-align: center;
 }
 .footnote {
@@ -382,6 +413,57 @@ ul {
   height: 15px;
 }
 
+.insertB1 {
+  transition: 1s;
+  height: 15px;
+}
+.insertB2 {
+  transition: 1s;
+  height: 15px;
+}
+.insertB3 {
+  transition: 1s;
+  height: 15px;
+}
+.insertB4 {
+  transition: 1s;
+  height: 15px;
+
+}
+.insertB5 {
+  transition: 1s;
+  height: 15px;
+}
+.insertB6 {
+  transition: 1s;
+  height: 15px;
+}
+.insertB7 {
+  transition: 1s;
+  height: 15px;
+}
+.insertB8 {
+  transition: 1s;
+  height: 15px;
+}
+.insertB9 {
+  transition: 1s;
+  height: 15px;
+}
+.insertB10 {
+  transition: 1s;
+  height: 15px;
+}
+.insertB11 {
+  transition: 1s;
+  height: 15px;
+}
+.insertB12 {
+  transition: 1s;
+  height: 15px;
+}
+
+
 
 
 /* Response styles here */
@@ -390,7 +472,7 @@ ul {
   width: 40%;
   height: 99vh;
   position: fixed;
-  top:0px;
+  top:5%;
   right:0px;
   overflow: scroll;
   display: block;
@@ -401,10 +483,17 @@ ul {
 .response {
   margin-left: 3%;
   margin-right: 3%;
-  background-color: white;
-  margin-top: 3%;
-  height: 150px;
+  background-color: #d6daf0;
+  margin-top: 2%;
+  height: 175px;
 
+
+}
+.responseResponse {
+
+  margin-left: 3%;
+  font-family: arial;
+  color:#dd0000;
 
 }
 .insert1Response {
@@ -414,12 +503,17 @@ ul {
   display: block;
 }
 .responseImg {
+  padding: 12px;
   height: 150px;
   float:left;
-  border: solid 5px red;
+
 }
 
 .responseTxt {
+  padding-top: 20px;
+  padding-right: 3%;
+
+  color:#789922;
   font-family: arial;
   font-size: 10pt;
 
