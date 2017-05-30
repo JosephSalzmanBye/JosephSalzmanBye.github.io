@@ -1,4 +1,4 @@
-  $(document).ready(function() {
+    $(document).ready(function() {
 
 /* create base function for expanding images */
   $('.inlineImg').mouseenter(function() {
@@ -13,6 +13,32 @@
   $('.insert1').mouseenter(function() {
     $('.insert1Response').addClass('show');
   });
+
+/* Main Menu link popups */
+
+$('.mainLink1').mouseenter(function() {
+  $('.mainLink1Popup').addClass('show');
+});
+
+$('.mainLink1').mouseleave(function() {
+  $('.mainLink1Popup').removeClass('show');
+});
+
+$('.mainLink2').mouseenter(function() {
+  $('.mainLink2Popup').addClass('show');
+});
+
+$('.mainLink2').mouseleave(function() {
+  $('.mainLink2Popup').removeClass('show');
+});
+
+$('.mainLink3').mouseenter(function() {
+  $('.mainLink3Popup').addClass('show');
+});
+
+$('.mainLink3').mouseleave(function() {
+  $('.mainLink3Popup').removeClass('show');
+});
 
 /*menu */
 $('.menu').mouseenter(function() {
