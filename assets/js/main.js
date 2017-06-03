@@ -13,6 +13,60 @@
   $('.insert1').mouseenter(function() {
     $('.insert1Response').addClass('show');
   });
+  $('.insert2').mouseenter(function() {
+    $('.insert2Response').addClass('show');
+  });
+  $('.insert3').mouseenter(function() {
+    $('.insert3Response').addClass('show');
+  });
+  $('.insert4').mouseenter(function() {
+    $('.insert4Response').addClass('show');
+  });
+
+  $('.insert5').mouseenter(function() {
+    $('.insert5Response').addClass('show');
+  });
+  $('.insert6').mouseenter(function() {
+    $('.insert6Response').addClass('show');
+  });
+  $('.insert7').mouseenter(function() {
+    $('.insert7Response').addClass('show');
+  });
+
+  $('.insert8').mouseenter(function() {
+    $('.insert8Response').addClass('show');
+  });
+  $('.insert9').mouseenter(function() {
+    $('.insert9Response').addClass('show');
+  });
+  $('.insert10').mouseenter(function() {
+    $('.insert10Response').addClass('show');
+  });
+  $('.insert11').mouseenter(function() {
+    $('.inser11Response').addClass('show');
+  });
+  $('.insert12').mouseenter(function() {
+    $('.insert12Response').addClass('show');
+  });
+  $('.insert13').mouseenter(function() {
+    $('.insert13Response').addClass('show');
+  });
+  $('.insert14').mouseenter(function() {
+    $('.insert14Response').addClass('show');
+  });
+  $('.insert15').mouseenter(function() {
+    $('.insert15Response').addClass('show');
+  });
+  $('.insert16').mouseenter(function() {
+    $('.insert16Response').addClass('show');
+  });
+
+  $('.insert17').mouseenter(function() {
+    $('.insert17Response').addClass('show');
+  });
+  $('.insert9').mouseenter(function() {
+    $('.insert9Response').addClass('show');
+  });
 
 /* Main Menu link popups */
 

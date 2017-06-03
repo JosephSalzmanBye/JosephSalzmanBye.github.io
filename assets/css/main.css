@@ -10,6 +10,7 @@ a {
 
 ul {
   list-style-type: decimal;
+  list-style: red;
 }
 
 h2{
@@ -151,8 +152,9 @@ h5 {
   text-align: center;
 }
 .footnote {
+  border-top: solid #b7c5d9;
   position: fixed;
-  width: 49%;
+  width: 49.5%;
   margin-left: 7%;
   bottom:0%;
   background-color: #d6daf0;
@@ -409,7 +411,7 @@ h5 {
 /* insert image styles here */
 
 .inlineImg.enlarge {
-  height: 125px;
+  height: 150px;
   transition: 1s;
 }
 
@@ -572,6 +574,103 @@ h5 {
 .insert1Response.show {
   display: block;
 }
+.insert2Response {
+  display:none;
+}
+.insert2Response.show {
+  display: block;
+}
+.insert3Response {
+  display:none;
+}
+.insert3Response.show {
+  display: block;
+}
+.insert4Response {
+  display:none;
+}
+.insert4Response.show {
+  display: block;
+}
+.insert5Response {
+  display:none;
+}
+.insert5Response.show {
+  display: block;
+}
+.insert6Response {
+  display:none;
+}
+.insert6Response.show {
+  display: block;
+}
+.insert7Response {
+  display:none;
+}
+.insert7Response.show {
+  display: block;
+}
+.insert8Response {
+  display:none;
+}
+.insert8Response.show {
+  display: block;
+}
+.insert9Response {
+  display:none;
+}
+.insert9Response.show {
+  display: block;
+}
+.insert10Response {
+  display:none;
+}
+.insert10Response.show {
+  display: block;
+}
+.insert11Response {
+  display:none;
+}
+.insert11Response.show {
+  display: block;
+}
+.insert12Response {
+  display:none;
+}
+.insert12Response.show {
+  display: block;
+}
+.insert13Response {
+  display:none;
+}
+.insert13Response.show {
+  display: block;
+}
+.insert14Response {
+  display:none;
+}
+.insert14Response.show {
+  display: block;
+}
+.insert15Response {
+  display:none;
+}
+.insert15Response.show {
+  display: block;
+}
+.insert16Response {
+  display:none;
+}
+.insert16Response.show {
+  display: block;
+}
+
+.insert17Response {
+  display:none;
+}
+.insert17Response.show {
+  display: block;
+}
 .responseImg {
   padding: 12px;
   height: 150px;
@@ -591,12 +690,12 @@ h5 {
 /* Menu styles here */
 
 .menu {
-  height: 99%;
+  height: 100%;
   position: fixed;
   top: 0%;
   left:-25%;
   width: 30%;
-  border: solid 3px red;
+
   display: flex;
   flex-direction: column;
   background-color: #d6daf0;
