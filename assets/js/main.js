@@ -60,13 +60,47 @@
   $('.insert16').mouseenter(function() {
     $('.insert16Response').addClass('show');
   });
-
   $('.insert17').mouseenter(function() {
     $('.insert17Response').addClass('show');
   });
-  $('.insert9').mouseenter(function() {
-    $('.insert9Response').addClass('show');
+  $('.insertB1').mouseenter(function() {
+    $('.insertB1Response').addClass('show');
   });
+  $('.insertB2').mouseenter(function() {
+    $('.insertB2Response').addClass('show');
+  });
+  $('.insertB3').mouseenter(function() {
+    $('.insertB3Response').addClass('show');
+  });
+  $('.insertB4').mouseenter(function() {
+    $('.insertB4Response').addClass('show');
+  });
+  $('.insertB5').mouseenter(function() {
+    $('.insertB5Response').addClass('show');
+  });
+  $('.insertB6').mouseenter(function() {
+    $('.insertB6Response').addClass('show');
+  });
+  $('.insertB7').mouseenter(function() {
+    $('.insertB7Response').addClass('show');
+  });
+  $('.insertB8').mouseenter(function() {
+    $('.insertB8Response').addClass('show');
+  });
+  $('.insertB9').mouseenter(function() {
+    $('.insertB9Response').addClass('show');
+  });
+  $('.insertB10').mouseenter(function() {
+    $('.insertB10Response').addClass('show');
+  });
+  $('.insertB11').mouseenter(function() {
+    $('.insertB11Response').addClass('show');
+  });
+  $('.insertB12').mouseenter(function() {
+    $('.insertB12Response').addClass('show');
+  });
+
+
 
 /* Main Menu link popups */
 
