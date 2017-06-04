@@ -101,6 +101,13 @@ h5 {
   display: block;
 }
 /* Reading styles here */
+
+.banner{
+  width: 50%;
+  margin-left: 24.5%;
+  margin-top: 3%;
+
+}
 .readingBody{
   color: black;
   background-color:#d6daf0;
