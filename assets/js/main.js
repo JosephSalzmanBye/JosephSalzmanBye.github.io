@@ -99,6 +99,54 @@
   $('.insertB12').mouseenter(function() {
     $('.insertB12Response').addClass('show');
   });
+  $('.insertC1').mouseenter(function() {
+    $('.insertC1Response').addClass('show');
+  });
+  $('.insertC2').mouseenter(function() {
+    $('.insertC2Response').addClass('show');
+  });
+  $('.insertC3').mouseenter(function() {
+    $('.insertC3Response').addClass('show');
+  });
+  $('.insertC4').mouseenter(function() {
+    $('.insertC4Response').addClass('show');
+  });
+  $('.insertC5').mouseenter(function() {
+    $('.insertC5Response').addClass('show');
+  });
+  $('.insertC6').mouseenter(function() {
+    $('.insertC6Response').addClass('show');
+  });
+  $('.insertC7').mouseenter(function() {
+    $('.insertC7Response').addClass('show');
+  });
+  $('.insertC8').mouseenter(function() {
+    $('.insertC8Response').addClass('show');
+  });
+  $('.insertC9').mouseenter(function() {
+    $('.insertC9Response').addClass('show');
+  });
+  $('.insertC10').mouseenter(function() {
+    $('.insertC10Response').addClass('show');
+  });
+  $('.insertC11').mouseenter(function() {
+    $('.insertC11Response').addClass('show');
+  });
+  $('.insertC12').mouseenter(function() {
+    $('.insertC12Response').addClass('show');
+  });
+  $('.insertC13').mouseenter(function() {
+    $('.insertC13Response').addClass('show');
+  });
+  $('.insertC14').mouseenter(function() {
+    $('.insertC14Response').addClass('show');
+  });
+  $('.insertC16').mouseenter(function() {
+    $('.insertC16Response').addClass('show');
+  });
+  $('.insertC17').mouseenter(function() {
+    $('.insertC17Response').addClass('show');
+  });
 
 
 

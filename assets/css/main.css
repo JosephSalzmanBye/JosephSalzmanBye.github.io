@@ -541,6 +541,75 @@ h5 {
   transition: 1s;
   height: 15px;
 }
+.insertC1{
+  transition: 1s;
+  height: 15px;
+}
+.insertC2{
+  transition: 1s;
+  height: 15px;
+}
+.insertC3{
+  transition: 1s;
+  height: 15px;
+}
+.insertC4{
+  transition: 1s;
+  height: 15px;
+}
+.insertC5{
+  transition: 1s;
+  height: 15px;
+}
+.insertC6{
+  transition: 1s;
+  height: 15px;
+}
+.insertC7{
+  transition: 1s;
+  height: 15px;
+}
+.insertC8{
+  transition: 1s;
+  height: 15px;
+}
+.insertC9{
+  transition: 1s;
+  height: 15px;
+}
+.insertC10{
+  transition: 1s;
+  height: 15px;
+}
+.insertC11{
+  transition: 1s;
+  height: 15px;
+}
+.insertC12{
+  transition: 1s;
+  height: 15px;
+}
+.insertC13{
+  transition: 1s;
+  height: 15px;
+}
+.insertC14{
+  transition: 1s;
+  height: 15px;
+}
+.insertC15{
+  transition: 1s;
+  height: 15px;
+}
+.insertC16{
+  transition: 1s;
+  height: 15px;
+}
+.insertC17{
+  transition: 1s;
+  height: 15px;
+}
+
 
 
 
@@ -750,6 +819,109 @@ h5 {
 .insertB12Response.show {
   display: block;
 }
+.insertC1Response {
+  display:none;
+}
+.insertC1Response.show {
+  display: block;
+}
+.insertC2Response {
+  display:none;
+}
+.insertC2Response.show {
+  display: block;
+}
+.insertC3Response {
+  display:none;
+}
+.insertC3Response.show {
+  display: block;
+}
+.insertC4Response {
+  display:none;
+}
+.insertC4Response.show {
+  display: block;
+}
+.insertC5Response {
+  display:none;
+}
+.insertC5Response.show {
+  display: block;
+}
+.insertC6Response {
+  display:none;
+}
+.insertC6Response.show {
+  display: block;
+}
+.insertC7Response {
+  display:none;
+}
+.insertC7Response.show {
+  display: block;
+}
+.insertC8Response {
+  display:none;
+}
+.insertC8Response.show {
+  display: block;
+}
+.insertC9Response {
+  display:none;
+}
+.insertC9Response.show {
+  display: block;
+}
+.insertC10Response {
+  display:none;
+}
+.insertC10Response.show {
+  display: block;
+}
+.insertC11Response {
+  display:none;
+}
+.insertC11Response.show {
+  display: block;
+}
+.insertC12Response {
+  display:none;
+}
+.insertC12Response.show {
+  display: block;
+}
+.insertC13Response {
+  display:none;
+}
+.insertC13Response.show {
+  display: block;
+}
+.insertC14Response {
+  display:none;
+}
+.insertC14Response.show {
+  display: block;
+}
+.insertC15Response {
+  display:none;
+}
+.insertC15Response.show {
+  display: block;
+}
+.insertC16Response {
+  display:none;
+}
+.insertC16Response.show {
+  display: block;
+}
+.insertC17Response {
+  display:none;
+}
+.insertC17Response.show {
+  display: block;
+}
+
 
 .responseImg {
   padding: 12px;
@@ -790,7 +962,10 @@ h5 {
   font-family: Arial;
   font-weight: bold;
   font-size: 28pt;
-  margin: 25% 20% 6% 15%;
+  width:70%;
+  margin-left: 5%;
+  margin-top: 25%;
+  text-align: center;
   text-align: center;
 
 
