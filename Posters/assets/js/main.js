@@ -8,7 +8,7 @@ $(document).ready(function() {
   $('.rowRed').addClass('startPosRed');
   $('.rowBlue').addClass('startPosBlue');
   $('.rowBlack').addClass('startPosBlack');
-  $('.txtTitle').addClass('startSizeTxt');
+
 });
 
 setTimeout(function(){
@@ -38,17 +38,11 @@ setTimeout(function(){
   ,2000);
 
   $(".block").click(function(){
+    $('.diamond').addClass('round')
     $('.txtBlock').addClass('round');
     $('.txtBlock .txtTitle').addClass('txtChange');
 
   });
-
-
-
-
-
-
-
 
 
   });
