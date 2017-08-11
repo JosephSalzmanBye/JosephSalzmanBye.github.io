@@ -39,7 +39,7 @@
   font-size: 150pt;
 }
 .round{
-  margin-top: 100px;
+
   transition: 2s;
   border-radius: 100px;
 }
@@ -48,9 +48,7 @@
 }
 .txtChange{
   color: red;
-    transition: 2s;
-  margin-left: 100px;
-  font-size: 120px;
+  transition: 1s;
 }
 .txtBody{
   transition: 1s;

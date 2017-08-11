@@ -38,7 +38,9 @@ setTimeout(function(){
   ,2000);
 
   $(".block").click(function(){
-    $('.diamond').addClass('round')
+    $('.txtBlock').addClass('round');
+    $('.txtBlock .txtTitle').addClass('txtChange');
+
   });
 
 

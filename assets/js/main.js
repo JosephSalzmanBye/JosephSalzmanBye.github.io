@@ -38,8 +38,8 @@ setTimeout(function(){
   ,2000);
 
   $("block").click(function(){
-    $('.diamond').addClass('round');
-      $('.diamond').addClass('txtChange');
+
+    $('.diamond').addClass('txtChange');
     $('.txtTitle').removeClass('endSizeTxt');
       $('.txtTitle').addClass('startSizeTxt');
 

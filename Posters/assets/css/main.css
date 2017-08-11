@@ -48,6 +48,12 @@
   transition: 1s;
   font-size: 15pt;
 }
+.txtChange{
+  color: red;
+  transition: 1s;
+  z-index: -1;
+  margin-top: -70%;
+}
 .diamond {
   display: inline-block;
   width: 0;
