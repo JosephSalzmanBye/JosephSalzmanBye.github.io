@@ -3,46 +3,509 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <script src="assets/js/jquery-3.2.0.min.js" charset="utf-8"></script>
+    <script src="assets/js/main.js" charset="utf-8"></script>
   </head>
   <style media="screen">
-  .txtUnder{
 
-    position: absolute;
-    top: 10%;
-    color: black;
-    font-size: 100pt;
+  .man {
+    width: 700px;
+    position: relative;
+    display: inline-block;
   }
-    .txtOver{
-      top: 10%;
+
+    .rowSqrBack{
       position: absolute;
-      margin-top: -10%;
-      font-size: 50pt;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
+      top: 20%;
+      left: 40%;
+      z-index: -1;
 
-    .back{
-      background-color: red;
-      height: 100vh;
-      width: 100%;
-      border: 1px solid black;
 
     }
+    .rowRectBack{
+      position: absolute;
+      left: 40%;
+      z-index: -1;
+
+    }
+
+    .txt{
+      font-family: arial;
+      font-size: 55pt;
+      font-weight: bold;
+      color: red;
+      position: absolute;
+      margin-left: -10%;
+    }
+    .rowSqr{
+      margin-left: 40%;
+
+    }
+    .rowRect{
+      padding-left: 40%;
+      margin-left: -4px;
+
+    }
+    .sqrOutline{
+      margin-left: 2px;
+      margin-top: 2px;
+      display:inline-block;
+      border: 2px solid black;
+      height: 70px;
+      width: 70px;
+      animation: sqrOutlineChange 3s infinite alternate;
+      border-radius: 5%;
+
+    }
+    .sqrOutlineBack{
+
+      margin-left: 2px;
+      margin-top: 70px;
+      display:inline-block;
+      border: 2px solid black;
+      height: 70px;
+      width: 70px;
+      animation: sqrOutlineChange 3s infinite alternate;
+      border-radius: 5%;
+      z-index: -1;
+
+    }
+    .sqrBlack{
+      margin-left: 2px;
+      margin-top: 2px;
+      display:inline-block;
+      border: 2px solid black;
+      background-color: black;
+      height: 70px;
+      width: 70px;
+      border-radius: 5%;
+      animation: sqrBlackChange 4s infinite alternate;
+    }
+    .sqrBlackBack{
+      margin-left: 2px;
+      margin-top: 70px;
+      display:inline-block;
+      border: 2px solid black;
+      background-color: black;
+      height: 70px;
+      width: 70px;
+      border-radius: 5%;
+      animation: sqrBlackChange 4s infinite alternate;
+      z-index: -1;
+    }
+    .rectOutline{
+      display:inline-block;
+
+      border: 2px solid black;
+      height: 33px;
+      width: 33px;
+      border-radius: 5%;
+      animation: sqrOutlineChange 3s infinite alternate;
+
+    }
+    .rectOutlineBack{
+      margin-top: 33px;
+      display:inline-block;
+      border: 2px solid black;
+      height: 33px;
+      width: 33px;
+      border-radius: 5%;
+      animation: sqrOutlineChange 3s infinite alternate;
+      z-index: -1;
+
+    }
+    .rectBlack{
+      display:inline-block;
+      background-color: black;
+      border: 2px solid black;
+      height: 33px;
+      width: 71px;
+      margin-right: 2px;
+      margin-left: 2px;
+      border-radius: 5%;
+    }
+    .rectBlackBack{
+      margin-top: 33px;
+      display:inline-block;
+      background-color: black;
+      border: 2px solid black;
+      height: 33px;
+      width: 71px;
+      margin-right: 2px;
+      margin-left: 2px;
+      border-radius: 5%;
+      z-index: -1;
+    }
+    @keyframes sqrOutlineChange{
+    from {background-color: none}
+    to {background-color: black}
+  }
+    @keyframes sqrBlackChange{
+    from {background-color: black}
+    to {background-color: none}
+  }
   </style>
   <body>
-    <div class="back">
+
+        <a href="../index.html"><div class="menuIndex"></div></a>
+        <a href="postera.html"><div class="menuBack"></div></a>
+        <a href="posterc.html"><div class="menuForward"></div></a>
+    <div class="man">
+      <div class="rowSqr">
+        <div class="txt">
+          C
+        </div>
+        <div class="sqrOutline">
+        </div>
+        <div class="sqrOutline">
+        </div>
+        <div class="sqrOutline">
+        </div>
+        <div class="sqrOutline">
+        </div>
+        <div class="sqrBlack">
+        </div>
+      </div>
+      <div class="rowSqr">
+        <div class="sqrOutline">
+        </div>
+        <div class="sqrOutline">
+        </div>
+        <div class="sqrOutline">
+        </div>
+        <div class="sqrOutline">
+        </div>
+        <div class="sqrBlack">
+        </div>
+      </div>
+      <div class="rowSqr">
+        <div class="txt">
+          B
+        </div>
+        <div class="sqrOutline">
+        </div>
+        <div class="sqrOutline">
+        </div>
+        <div class="sqrBlack">
+        </div>
+        <div class="sqrOutline">
+        </div>
+        <div class="sqrBlack">
+        </div>
+      </div>
+      <div class="rowSqr">
+        <div class="sqrOutline">
+        </div>
+        <div class="sqrBlack">
+        </div>
+        <div class="sqrBlack">
+        </div>
+        <div class="sqrBlack">
+        </div>
+        <div class="sqrBlack">
+        </div>
+      </div>
+      <div class="rowSqr">
+        <div class="sqrBlack">
+        </div>
+        <div class="sqrOutline">
+        </div>
+        <div class="sqrBlack">
+        </div>
+        <div class="sqrOutline">
+        </div>
+        <div class="sqrOutline">
+        </div>
+      </div>
+      <div class="rowSqr">
+        <div class="sqrBlack">
+        </div>
+        <div class="sqrOutline">
+        </div>
+        <div class="sqrBlack">
+        </div>
+        <div class="sqrOutline">
+        </div>
+        <div class="sqrOutline">
+        </div>
+      </div>
+      <div class="rowRect">
+        <div class="rectBlack">
+        </div>
+        <div class="rectOutline">
+        </div>
+        <div class="rectOutline">
+        </div>
+        <div class="rectBlack">
+        </div>
+        <div class="rectOutline">
+        </div>
+        <div class="rectOutline">
+        </div>
+        <div class="rectOutline">
+        </div>
+        <div class="rectOutline">
+        </div>
+      </div>
+      <div class="rowSqr">
+        <div class="txt">
+          D
+        </div>
+        <div class="sqrBlack">
+        </div>
+        <div class="sqrBlack">
+        </div>
+        <div class="sqrBlack">
+        </div>
+        <div class="sqrBlack">
+        </div>
+        <div class="sqrOutline">
+        </div>
+      </div>
+      <div class="rowSqr">
+        <div class="sqrOutline">
+        </div>
+        <div class="sqrBlack">
+        </div>
+        <div class="sqrOutline">
+        </div>
+        <div class="sqrBlack">
+        </div>
+        <div class="sqrOutline">
+        </div>
+      </div>
+      <div class="rowSqr">
+        <div class="sqrOutline">
+        </div>
+        <div class="sqrBlack">
+        </div>
+        <div class="sqrOutline">
+        </div>
+        <div class="sqrBlack">
+        </div>
+        <div class="sqrOutline">
+        </div>
+      </div>
+      <div class="rowSqr">
+        <div class="sqrOutline">
+        </div>
+        <div class="sqrBlack">
+        </div>
+        <div class="sqrOutline">
+        </div>
+        <div class="sqrBlack">
+        </div>
+        <div class="sqrOutline">
+        </div>
+      </div>
+      <div class="rowSqr">
+        <div class="sqrOutline">
+        </div>
+        <div class="sqrBlack">
+        </div>
+        <div class="sqrOutline">
+        </div>
+        <div class="sqrBlack">
+        </div>
+        <div class="sqrOutline">
+        </div>
+      </div>
+      <div class="rowSqr">
+        <div class="txt">
+          A
+        </div>
+        <div class="sqrOutline">
+        </div>
+        <div class="sqrBlack">
+        </div>
+        <div class="sqrOutline">
+        </div>
+        <div class="sqrBlack">
+        </div>
+        <div class="sqrOutline">
+        </div>
+      </div>
+
+    </div>
+    <div class="man">
+      <div class="rowSqr">
+        <div class="txt">
+          C
+        </div>
+        <div class="sqrOutline">
+        </div>
+        <div class="sqrOutline">
+        </div>
+        <div class="sqrOutline">
+        </div>
+        <div class="sqrOutline">
+        </div>
+        <div class="sqrBlack">
+        </div>
+      </div>
+      <div class="rowSqr">
+        <div class="sqrOutline">
+        </div>
+        <div class="sqrOutline">
+        </div>
+        <div class="sqrOutline">
+        </div>
+        <div class="sqrOutline">
+        </div>
+        <div class="sqrBlack">
+        </div>
+      </div>
+      <div class="rowSqr">
+        <div class="txt">
+          B
+        </div>
+        <div class="sqrOutline">
+        </div>
+        <div class="sqrOutline">
+        </div>
+        <div class="sqrBlack">
+        </div>
+        <div class="sqrOutline">
+        </div>
+        <div class="sqrBlack">
+        </div>
+      </div>
+      <div class="rowSqr">
+        <div class="sqrOutline">
+        </div>
+        <div class="sqrBlack">
+        </div>
+        <div class="sqrBlack">
+        </div>
+        <div class="sqrBlack">
+        </div>
+        <div class="sqrBlack">
+        </div>
+      </div>
+      <div class="rowSqr">
+        <div class="sqrBlack">
+        </div>
+        <div class="sqrOutline">
+        </div>
+        <div class="sqrBlack">
+        </div>
+        <div class="sqrOutline">
+        </div>
+        <div class="sqrOutline">
+        </div>
+      </div>
+      <div class="rowSqr">
+        <div class="sqrBlack">
+        </div>
+        <div class="sqrOutline">
+        </div>
+        <div class="sqrBlack">
+        </div>
+        <div class="sqrOutline">
+        </div>
+        <div class="sqrOutline">
+        </div>
+      </div>
+      <div class="rowRect">
+        <div class="rectBlack">
+        </div>
+        <div class="rectOutline">
+        </div>
+        <div class="rectOutline">
+        </div>
+        <div class="rectBlack">
+        </div>
+        <div class="rectOutline">
+        </div>
+        <div class="rectOutline">
+        </div>
+        <div class="rectOutline">
+        </div>
+        <div class="rectOutline">
+        </div>
+      </div>
+      <div class="rowSqr">
+        <div class="txt">
+          D
+        </div>
+        <div class="sqrBlack">
+        </div>
+        <div class="sqrBlack">
+        </div>
+        <div class="sqrBlack">
+        </div>
+        <div class="sqrBlack">
+        </div>
+        <div class="sqrOutline">
+        </div>
+      </div>
+      <div class="rowSqr">
+        <div class="sqrOutline">
+        </div>
+        <div class="sqrBlack">
+        </div>
+        <div class="sqrOutline">
+        </div>
+        <div class="sqrBlack">
+        </div>
+        <div class="sqrOutline">
+        </div>
+      </div>
+      <div class="rowSqr">
+        <div class="sqrOutline">
+        </div>
+        <div class="sqrBlack">
+        </div>
+        <div class="sqrOutline">
+        </div>
+        <div class="sqrBlack">
+        </div>
+        <div class="sqrOutline">
+        </div>
+      </div>
+      <div class="rowSqr">
+        <div class="sqrOutline">
+        </div>
+        <div class="sqrBlack">
+        </div>
+        <div class="sqrOutline">
+        </div>
+        <div class="sqrBlack">
+        </div>
+        <div class="sqrOutline">
+        </div>
+      </div>
+      <div class="rowSqr">
+        <div class="sqrOutline">
+        </div>
+        <div class="sqrBlack">
+        </div>
+        <div class="sqrOutline">
+        </div>
+        <div class="sqrBlack">
+        </div>
+        <div class="sqrOutline">
+        </div>
+      </div>
+      <div class="rowSqr">
+        <div class="txt">
+          A
+        </div>
+        <div class="sqrOutline">
+        </div>
+        <div class="sqrBlack">
+        </div>
+        <div class="sqrOutline">
+        </div>
+        <div class="sqrBlack">
+        </div>
+        <div class="sqrOutline">
+        </div>
+      </div>
 
     </div>
 
-    <div class="txtOver">
-        asdklsajdlsakjdallkdjasd
-
-
-    </div>
-    <div class="txtUnder">
-      ads
-
-    </div>
 
 
   </body>

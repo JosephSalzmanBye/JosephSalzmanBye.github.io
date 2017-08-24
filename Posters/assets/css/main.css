@@ -6,9 +6,11 @@
 }
 
 
+body{
+  background-color:gainsboro;
+}
 
-
-/* Start here */
+/* Poster C*/
 
 .slideLeft{
   transition: 1.5s;
@@ -125,4 +127,219 @@
   margin-right: 60px;
   vertical-align: middle;
   display: inline-block;
+}
+/* Poster D*/
+.posterDTitle{
+  margin-left: 30%;
+  font-size: 70pt;
+  font-family: arial;
+}
+.horizon{
+
+  margin-left: 30%;
+  margin-top: 20%;
+    z-index: 2;
+  transition: 1s;
+  position: relative;
+}
+.vertical{
+  margin-left: 37.7%;
+  margin-top: -10%;
+  width: 10px;
+transition: 1s;
+}
+.shrink{
+  transition: 1s;
+  width: 2vh;
+  height: 2vh;
+}
+.shiftLeft{
+  margin-left: 50%;
+  transition: 1s;
+}
+.grow{
+  transition: 1s;
+  background-color: blue;
+  height: 10vh;
+  width: 10vh;
+}
+.oscillate{
+  animation: flicker  1s infinite;
+}
+@keyframes flicker {
+0% {margin-left: 37.7%;}
+20% {margin-left: 30%;}
+66% {margin-left: 50%;}
+100% {margin-left: 37.7%;}
+
+}
+.shiftUp{
+  margin-top:10%;
+  transition: 1s;
+}
+.shiftDown{
+  margin-bottom: 10%;
+  transition: 1s;
+
+}
+.size{
+  height: 5vh;
+  width: 5vh;
+}
+.block{
+
+  display: inline-block;
+  margin-left: -.6vh;
+  transition: 1s;
+
+}
+.blockRed{
+  height: 5vh;
+  width: 5vh;
+  background-color: red;
+}
+.blockGrey{
+
+
+
+  background-color: gray;
+}
+.blockBlack{
+  height: 5vh;
+  width: 5vh;
+  background-color: black;
+}
+.blockYellow{
+  height: 5vh;
+  width: 5vh;
+  background-color: yellow;
+}
+.blockBlue {
+  height: 5vh;
+  width: 5vh;
+  background-color: blue;
+}
+.blockClear{
+
+
+}
+/* Poster E */
+.txtBox{
+  font-size: 10pt;
+  position: absolute;
+  font-weight: bold;
+  font-family: arial;
+
+}
+.txtMain{
+  margin-top: 1.7%;
+  margin-left: 40%;
+}
+.txtDesc{
+  text-align: right;
+  margin-top: 3%;
+  margin-left: 47%;
+}
+.txtList{
+  font-size: 8pt;
+  text-align: right;
+  margin-left: 85%;
+  margin-top: 3%;
+
+}
+.txtAuth{
+  font-size: 14pt;
+  margin-top: 5.5%;
+  margin-left: 65%;
+}
+.divider{
+  margin-top: 3%;
+  width: 1%;
+  height: 15%;
+  position: absolute;
+  margin-left: 62%;
+  background-color: black;
+}
+.circle{
+  position: absolute;
+  width: 20vh;
+  height: 20%;
+  border-radius:50%;
+  background-color: white;
+}
+
+.soundA{
+  margin-top: 35%;
+  margin-left: 15%;
+}
+.soundB{
+  margin-top: 20%;
+  margin-left: 50%;
+}
+.soundC{
+  margin-top: 10%;
+  margin-left: 65%;
+}
+.shake{
+  animation: shakeLoop .01s infinite alternate;
+}
+@keyframes shakeLoop {
+  from {margin-left: 15.1%;}
+  to {margin-left: 12.9%;}
+
+}
+.moveLeft{
+  animation: moveLoop 5s infinite alternate;
+}
+@keyframes moveLoop {
+  from {margin-left: 65%;}
+  to {margin-left: 80%;}
+
+}
+
+/* menu */
+
+.menuBack{
+  z-index: 2;
+  width: 30%;
+  height: 5vh;
+  background-color: black;
+  margin-left: -25%;
+  margin-top: 20%;
+  position: fixed;
+  transition: 1s;
+}
+.menuForward{
+  z-index: 2;
+  width: 30%;
+  height: 5%;
+  background-color: white;
+  margin-left: -25%;
+  margin-top: 23%;
+  position: fixed;
+  transition: 1s;
+}
+.menuIndex{
+  z-index: 2;
+  width: 30%;
+  height: 5%;
+  background-color: gray;
+  margin-left: -25%;
+  margin-top: 30%;
+  position: fixed;
+  transition: 1s;
+}
+
+.menuBack:hover{
+width: 50%;
+transition: 1s;
+
+}
+.menuForward:hover{
+  width: 50%;
+  transition: 1s;
+}
+.menuIndex:hover{
+  width: 50%;
+  transition: 1s;
 }
