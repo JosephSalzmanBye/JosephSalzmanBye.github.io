@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <script src="assets/js/jquery-3.2.0.min.js" charset="utf-8"></script>
+    <script src="assets/js/main.js" charset="utf-8"></script>
+    <script src="js/Three.js"></script>
+    <script src="js/Detector.js"></script>
+
+
+  </head>
+  <body>
+
+    <!-- Start here -->
+
+  <div id="ThreeJS" style="position: fixed; left:0px; top:0px; z-index: -9000"></div>
+<script>
+/*
+	Three.js "tutorials by example"
+	Author: Lee Stemkoski
+	Date: July 2013 (three.js v59dev)
+*/
+
+// MAIN
+
+// standard global variables
+var container, scene, camera, renderer, controls, stats;
+
+
+// custom global variables
+var cube;
+
+init();
+animate();
+
+// FUNCTIONS
+function init()
+{
+	// SCENE
+	scene = new THREE.Scene();
+	// CAMERA
+  var SCREEN_WIDTH = window.innerWidth, SCREEN_HEIGHT = window.innerHeight;
+	var VIEW_ANGLE = 35, ASPECT = SCREEN_WIDTH / SCREEN_HEIGHT, NEAR = 0.1, FAR = 20000;
+	camera = new THREE.PerspectiveCamera( VIEW_ANGLE, ASPECT, NEAR, FAR);
+	scene.add(camera);
+	camera.position.set(500,50,50);
+  camera.translateY(60)
+  camera.translateX(500)
+  camera.translateZ(600)
+	camera.lookAt(scene.position);
+	// RENDERER
+	if ( Detector.webgl )
+		renderer = new THREE.WebGLRenderer( {antialias:true} );
+	else
+		renderer = new THREE.CanvasRenderer();
+	renderer.setSize(SCREEN_WIDTH, SCREEN_HEIGHT);
+	container = document.getElementById( 'ThreeJS' );
+	container.appendChild( renderer.domElement );
+
+	// LIGHT
+	var light = new THREE.PointLight(0xffffff);
+	light.position.set(10,120,300);
+	scene.add(light);
+	// FLOOR
+
+
+	////////////
+	// CUSTOM //
+	////////////
+
+	// Spheres
+	//   Note: a standard flat rectangular image will look distorted,
+	//   a "spherical projection" image will look "normal".
+
+	// radius, segmentsWidth, segmentsHeight
+	var sphereGeom =  new THREE.SphereGeometry( 250, 30, 20 );
+
+	var light2 = new THREE.AmbientLight(0x444444);
+	scene.add(light2);
+
+
+
+	// shaded moon -- side away from light picks up AmbientLight's color.
+	var moonTexture = THREE.ImageUtils.loadTexture( 'images/img1.png' );
+	var moonMaterial = new THREE.MeshLambertMaterial( { map: moonTexture } );
+	var moon = new THREE.Mesh( sphereGeom.clone(), moonMaterial );
+	moon.position.set(200, -50, -400);
+	scene.add( moon );
+
+
+
+	// create a small sphere to show position of light
+
+
+	// Cubes
+	//   Note: when using a single image, it will appear on each of the faces.
+	//   Six different images (one per face) may be used if desired.
+
+  var animate = function () {
+    requestAnimationFrame( animate );
+
+
+    moon.rotation.y += 0.01
+
+    renderer.render(scene, camera);
+  };
+  animate();
+}
+
+function animate()
+{
+    requestAnimationFrame( animate );
+	render();
+	update();
+}
+
+
+function render()
+{
+	renderer.render( scene, camera );
+}
+
+</script>
+<div class="container">
+  <div class="col1of5">
+    <div class="content">
+      <img src="images/img1.png" alt="">
+
+    </div>
+  </div>
+  <div class="col1of5">
+    <div class="content">
+      <img src="images/img2.png" alt="">
+
+    </div>
+  </div>
+
+  <div class="col1of5">
+    <div class="content">
+      <img src="images/img4.png" alt="">
+
+    </div>
+  </div>
+  <div class="col2of5">
+    <div class="content">
+
+
+    </div>
+  </div>
+  <div class="col1of5">
+    <div class="content">
+      <img src="images/img5.png" alt="">
+
+    </div>
+  </div>
+  <div class="col1of5">
+    <div class="content">
+      <img src="images/img6.png" alt="">
+
+    </div>
+  </div>
+
+  <div class="col1of5">
+    <div class="content">
+      <img src="images/img8.png" alt="">
+
+    </div>
+  </div>
+  <div class="col2of5">
+    <div class="content">
+
+
+    </div>
+  </div>
+  <div class="col1of5">
+    <div class="content">
+      <img src="images/img9.png" alt="">
+
+    </div>
+  </div>
+  <div class="col1of5">
+    <div class="content">
+      <img src="images/img10.png" alt="">
+
+    </div>
+  </div>
+
+  <div class="col1of5">
+    <div class="content">
+      <img src="images/img12.png" alt="">
+
+    </div>
+  </div>
+  <div class="col2of5">
+    <div class="content">
+
+
+    </div>
+  </div>
+  <div class="col1of5">
+    <div class="content">
+      <img src="images/img13.png" alt="">
+
+    </div>
+  </div>
+  <div class="col1of5">
+    <div class="content">
+      <img src="images/img14.png" alt="">
+
+    </div>
+  </div>
+  <div class="col1of5">
+    <div class="content">
+      <img src="images/img15.png" alt="">
+
+    </div>
+  </div>
+  <div class="col2of5">
+    <div class="content">
+
+
+    </div>
+  </div>
+  <div class="col1of5">
+    <div class="content">
+      <img src="images/img16.png" alt="">
+
+    </div>
+  </div>
+  <div class="col1of5">
+    <div class="content">
+      <img src="images/img17.png" alt="">
+
+    </div>
+  </div>
+  <div class="col1of5">
+    <div class="content">
+      <img src="images/img18.png" alt="">
+
+    </div>
+  </div>
+  <div class="col2of5">
+    <div class="content">
+
+
+    </div>
+  </div>
+
+
+
+</div>
+</body>
+</html>
