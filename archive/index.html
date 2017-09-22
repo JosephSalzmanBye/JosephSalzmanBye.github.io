@@ -18,7 +18,7 @@
 
     <!-- Start here -->
 
-  <div id="ThreeJS" style="position: fixed; left:0px; top:0px; z-index: -9000"></div>
+  <div id="ThreeJS" style="position: fixed; left:; top:0 ; z-index: 000; border: solid blue 3px;"></div>
 <script>
 /*
 	Three.js "tutorials by example"
@@ -45,6 +45,7 @@ function init()
 	scene = new THREE.Scene();
 	// CAMERA
   var SCREEN_WIDTH = window.innerWidth, SCREEN_HEIGHT = window.innerHeight;
+  //window.innerWidth
 	var VIEW_ANGLE = 35, ASPECT = SCREEN_WIDTH / SCREEN_HEIGHT, NEAR = 0.1, FAR = 20000;
 	camera = new THREE.PerspectiveCamera( VIEW_ANGLE, ASPECT, NEAR, FAR);
 	scene.add(camera);
@@ -64,7 +65,7 @@ function init()
 
 	// LIGHT
 	var light = new THREE.PointLight(0xffffff);
-	light.position.set(10,120,200);
+	light.position.set(150,100,5000);
 	scene.add(light);
 	// FLOOR
 
@@ -78,7 +79,7 @@ function init()
 	//   a "spherical projection" image will look "normal".
 
 	// radius, segmentsWidth, segmentsHeight
-	var sphereGeom =  new THREE.SphereGeometry( 200, 10, 10 );
+	var sphereGeom =  new THREE.SphereGeometry( 150, 10, 10 );
 
 	var light2 = new THREE.AmbientLight(0x444444);
 	scene.add(light2);
@@ -86,8 +87,8 @@ function init()
 
 
 	// shaded moon -- side away from light picks up AmbientLight's color.
-	var moonTexture = THREE.ImageUtils.loadTexture( 'images/img1.png' );
-	var moonMaterial = new THREE.MeshLambertMaterial( { map: moonTexture } );
+	var moonTexture = THREE.ImageUtils.loadTexture( 'images/img37.png' );
+	var moonMaterial = new THREE.MeshBasicMaterial( { map: moonTexture } );
 	var moon = new THREE.Mesh( sphereGeom.clone(), moonMaterial );
 	moon.position.set(200, -50, -400);
 	scene.add( moon );
