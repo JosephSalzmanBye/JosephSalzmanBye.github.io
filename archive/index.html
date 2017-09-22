@@ -79,21 +79,28 @@ function init()
 	//   a "spherical projection" image will look "normal".
 
 	// radius, segmentsWidth, segmentsHeight
-	var sphereGeom =  new THREE.SphereGeometry( 150, 10, 10 );
+	var sphereGeom =  new THREE.SphereGeometry( 150, 9, 9 );
 
 	var light2 = new THREE.AmbientLight(0x444444);
 	scene.add(light2);
 
 
+  var material = new THREE.MeshNormalMaterial();
 
 	// shaded moon -- side away from light picks up AmbientLight's color.
 	var moonTexture = THREE.ImageUtils.loadTexture( 'images/img37.png' );
 	var moonMaterial = new THREE.MeshBasicMaterial( { map: moonTexture } );
 	var moon = new THREE.Mesh( sphereGeom.clone(), moonMaterial );
-	moon.position.set(200, -50, -400);
+	moon.position.set(140, -50, -300);
 	scene.add( moon );
+  var material = new THREE.MeshNormalMaterial();
 
 
+  var outlineMaterial1 = new THREE.MeshBasicMaterial( { color: 0x000000, side: THREE.BackSide } );
+  var outlineMesh1 = new THREE.Mesh( sphereGeom.clone(), outlineMaterial1 );
+  outlineMesh1.position = moon.position;
+  outlineMesh1.scale.multiplyScalar(1.025);
+  scene.add( outlineMesh1 );
 
 	// create a small sphere to show position of light
 
@@ -107,6 +114,7 @@ function init()
 
 
     moon.rotation.y += 0.01
+    outlineMesh1.rotation.y += 0.01
 
     renderer.render(scene, camera);
   };
