@@ -4,24 +4,37 @@
 * {
   box-sizing: border-box;
 }
+html {
+    overflow-y: scroll;
+}
 img{
   max-width: 100%;
-
+min-width: 100%;
     margin:auto;
 }
 .container{
   z-index: 1;
+
   margin: 5%;
+
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-end;
-  justify-content: center;
+  align-items: flex-start;
+
 }
-.content{
+.spacer{
+  padding: 20%;
 
 }
 
 .col1of3{
+  flex:0 0 33.33%;
+
+}
+.col2of3{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  flex:0 0 66.66%;
 
 }
 .col1of5{
@@ -45,3 +58,38 @@ img{
 
 }
 /* Start here  FOR ALL TEXTURES*/
+.header{
+  border: solid red 1px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  padding: 20px;
+}
+.title{
+
+  font-family: arial;
+  font-size: 20pt;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+.nav {
+  font-size: 20pt;
+
+
+}
+.nav span {
+  display: block;
+}
+.nav span:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+.show {
+  display: block;
+}
+.hide {
+  display: none;
+}
