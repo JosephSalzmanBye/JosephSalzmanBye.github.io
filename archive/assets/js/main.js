@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-  $('.nav_All').click(function(){
+  $('.nav_all').click(function(){
     $('.item').removeClass('hide');
     $('.item').addClass('show');
   });
@@ -29,21 +29,21 @@ $(document).ready(function(){
     $('.item.brown').addClass('show')
   });
 
-  $('.nav_Red').click(function(){
+  $('.nav_red').click(function(){
     $('.item').removeClass('show');
     $('.item').addClass('hide');
 
-    $('.item.Red').removeClass('hide');
-    $('.item.Red').addClass('show')
+    $('.item.red').removeClass('hide');
+    $('.item.red').addClass('show')
   });
 
 
-  $('.nav_Grey').click(function(){
+  $('.nav_grey').click(function(){
     $('.item').removeClass('show');
     $('.item').addClass('hide');
 
-    $('.item.Grey').removeClass('hide');
-    $('.item.Grey').addClass('show')
+    $('.item.grey').removeClass('hide');
+    $('.item.grey').addClass('show')
   });
 
 

@@ -10,30 +10,36 @@ html {
 img{
   max-width: 100%;
 min-width: 100%;
+
     margin:auto;
 }
 .container{
   z-index: 1;
 
-  margin: 5%;
+
 
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
+  align-items: stretch;
 
 }
 .spacer{
-  padding: 20%;
+  padding: 100px;
 
 }
+.item{
+  border-top: solid black 3px;
+  border-right: solid black 3px;
+}
+
 
 .col1of3{
   flex:0 0 33.33%;
 
+
 }
 .col2of3{
-  margin-top: 5%;
-  margin-bottom: 5%;
+
   flex:0 0 66.66%;
 
 }
@@ -59,7 +65,7 @@ min-width: 100%;
 }
 /* Start here  FOR ALL TEXTURES*/
 .header{
-  border: solid red 1px;
+
   position: fixed;
   top: 0px;
   left: 0px;

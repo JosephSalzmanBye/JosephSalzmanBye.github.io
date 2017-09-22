@@ -48,9 +48,9 @@ function init()
 	var VIEW_ANGLE = 35, ASPECT = SCREEN_WIDTH / SCREEN_HEIGHT, NEAR = 0.1, FAR = 20000;
 	camera = new THREE.PerspectiveCamera( VIEW_ANGLE, ASPECT, NEAR, FAR);
 	scene.add(camera);
-	camera.position.set(500,50,50);
+	camera.position.set(-326,50,50);
   camera.translateY(60)
-  camera.translateX(500)
+  camera.translateX(0)
   camera.translateZ(600)
 	camera.lookAt(scene.position);
 	// RENDERER
@@ -64,7 +64,7 @@ function init()
 
 	// LIGHT
 	var light = new THREE.PointLight(0xffffff);
-	light.position.set(10,120,300);
+	light.position.set(10,120,200);
 	scene.add(light);
 	// FLOOR
 
@@ -78,7 +78,7 @@ function init()
 	//   a "spherical projection" image will look "normal".
 
 	// radius, segmentsWidth, segmentsHeight
-	var sphereGeom =  new THREE.SphereGeometry( 250, 30, 20 );
+	var sphereGeom =  new THREE.SphereGeometry( 200, 10, 10 );
 
 	var light2 = new THREE.AmbientLight(0x444444);
 	scene.add(light2);
@@ -131,7 +131,7 @@ function render()
     The World of World of Warcraft
   </div>
   <div class="nav">
-    <span class="nav_All">All</span>
+    <span class="nav_all">All</span>
     <span class="nav_blue">Blue</span>
     <span class="nav_green">Green</span>
     <span class="nav_red">Red</span>
@@ -140,301 +140,301 @@ function render()
   </div>
 </div>
 <div class="container">
-  <div class="item col1of3">
+  <div class="item col1of3 brown">
     <div class="spacer">
       <img src="assets/images/img1.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 brown">
     <div class="spacer">
       <img src="assets/images/img2.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 grey">
     <div class="spacer">
       <img src="assets/images/img3.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 grey">
     <div class="spacer">
       <img src="assets/images/img4.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 red">
     <div class="spacer">
       <img src="assets/images/img5.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 brown">
     <div class="spacer">
       <img src="assets/images/img6.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 red">
     <div class="spacer">
       <img src="assets/images/img7.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 red">
     <div class="spacer">
       <img src="assets/images/img8.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 red">
     <div class="spacer">
       <img src="assets/images/img9.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 grey">
     <div class="spacer">
       <img src="assets/images/img10.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 brown">
     <div class="spacer">
       <img src="assets/images/img11.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 brown">
     <div class="spacer">
       <img src="assets/images/img12.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 brown">
     <div class="spacer">
       <img src="assets/images/img13.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 green">
     <div class="spacer">
       <img src="assets/images/img14.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 green">
     <div class="spacer">
       <img src="assets/images/img15.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 green">
     <div class="spacer">
       <img src="assets/images/img16.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 brown">
     <div class="spacer">
       <img src="assets/images/img17.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 green">
     <div class="spacer">
       <img src="assets/images/img18.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 blue">
     <div class="spacer">
       <img src="assets/images/img19.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 green">
     <div class="spacer">
       <img src="assets/images/img20.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 grey">
     <div class="spacer">
       <img src="assets/images/img21.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 grey">
     <div class="spacer">
       <img src="assets/images/img22.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 brown">
     <div class="spacer">
       <img src="assets/images/img23.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 blue">
     <div class="spacer">
       <img src="assets/images/img24.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 grey">
     <div class="spacer">
       <img src="assets/images/img25.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 brown">
     <div class="spacer">
       <img src="assets/images/img26.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 blue">
     <div class="spacer">
       <img src="assets/images/img27.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 blue">
     <div class="spacer">
       <img src="assets/images/img28.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 brown">
     <div class="spacer">
       <img src="assets/images/img29.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 green blue">
     <div class="spacer">
       <img src="assets/images/img30.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 grey">
     <div class="spacer">
       <img src="assets/images/img31.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 blue">
     <div class="spacer">
       <img src="assets/images/img32.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 blue">
     <div class="spacer">
       <img src="assets/images/img33.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 brown">
     <div class="spacer">
       <img src="assets/images/img34.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 brown green">
     <div class="spacer">
       <img src="assets/images/img35.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 green">
     <div class="spacer">
       <img src="assets/images/img36.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 red">
     <div class="spacer">
       <img src="assets/images/img37.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 grey red">
     <div class="spacer">
       <img src="assets/images/img38.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 green">
     <div class="spacer">
       <img src="assets/images/img39.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 grey">
     <div class="spacer">
       <img src="assets/images/img40.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 red">
     <div class="spacer">
       <img src="assets/images/img41.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 blue">
     <div class="spacer">
       <img src="assets/images/img42.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 blue">
     <div class="spacer">
       <img src="assets/images/img43.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 green">
     <div class="spacer">
       <img src="assets/images/img44.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 green">
     <div class="spacer">
       <img src="assets/images/img45.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 red">
     <div class="spacer">
       <img src="assets/images/img46.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 red">
     <div class="spacer">
       <img src="assets/images/img47.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 brown">
     <div class="spacer">
       <img src="assets/images/img48.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 green">
     <div class="spacer">
       <img src="assets/images/img49.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 blue">
     <div class="spacer">
       <img src="assets/images/img50.png">
     </div>
@@ -442,127 +442,127 @@ function render()
 
 
 
-  <div class="item col1of3">
+  <div class="item col1of3 brown red">
     <div class="spacer">
       <img src="assets/images/img53.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 blue">
     <div class="spacer">
       <img src="assets/images/img54.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 red">
     <div class="spacer">
       <img src="assets/images/img55.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 green">
     <div class="spacer">
       <img src="assets/images/img56.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 green">
     <div class="spacer">
       <img src="assets/images/img57.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 green">
     <div class="spacer">
       <img src="assets/images/img58.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 red">
     <div class="spacer">
       <img src="assets/images/img59.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 grey">
     <div class="spacer">
       <img src="assets/images/img60.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 red">
     <div class="spacer">
       <img src="assets/images/img61.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 brown">
     <div class="spacer">
       <img src="assets/images/img62.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 blue">
     <div class="spacer">
       <img src="assets/images/img63.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 brown green">
     <div class="spacer">
       <img src="assets/images/img64.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 green">
     <div class="spacer">
       <img src="assets/images/img65.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 green grey">
     <div class="spacer">
       <img src="assets/images/img66.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 brown">
     <div class="spacer">
       <img src="assets/images/img67.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 blue">
     <div class="spacer">
       <img src="assets/images/img68.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 green">
     <div class="spacer">
       <img src="assets/images/img69.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 blue">
     <div class="spacer">
       <img src="assets/images/img70.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 brown">
     <div class="spacer">
       <img src="assets/images/img71.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 grey blue">
     <div class="spacer">
       <img src="assets/images/img72.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 blue red">
     <div class="spacer">
       <img src="assets/images/img73.png">
     </div>
@@ -570,48 +570,48 @@ function render()
 
 
 
-  <div class="item col1of3">
+  <div class="item col1of3 green">
     <div class="spacer">
       <img src="assets/images/img75.png">
     </div>
   </div>
-  <div class="item col2of3">
+  <div class="item col2of3 red">
     <div class="spacer">
       <img src="assets/images/img74.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 red">
     <div class="spacer">
       <img src="assets/images/img76.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 red">
     <div class="spacer">
       <img src="assets/images/img77.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 brown blue">
     <div class="spacer">
       <img src="assets/images/img78.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 red">
     <div class="spacer">
       <img src="assets/images/img79.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 grey">
     <div class="spacer">
       <img src="assets/images/img80.png">
     </div>
   </div>
 
-  <div class="item col1of3">
+  <div class="item col1of3 blue">
     <div class="spacer">
       <img src="assets/images/img81.png">
     </div>
