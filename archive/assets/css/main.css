@@ -75,21 +75,26 @@ min-width: 100%;
 .title{
 
   font-family: arial;
-  font-size: 20pt;
+  font-size: 19pt;
   text-align: center;
   text-transform: uppercase;
+  border-bottom: 3  px solid black;
 
 }
 .nav {
   font-size: 20pt;
-
+  margin-top: 2%;
 
 }
 .nav span {
-  display: block;
+  display: inline-block;
+  font-family: arial;
+  border: solid 2px black;
+  padding: 5px;
 }
 .nav span:hover {
-  color: blue;
+  color: white;
+  background-color: black;
   cursor: pointer;
 }
 
