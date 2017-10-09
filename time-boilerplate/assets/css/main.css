@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+
+/* Start here */
+
+body {
+
+}
+
+.time {
+  font-size: 80px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: arial;
+  margin-bottom: 80px;
+}
+
+.imageSwap{
+  margin: auto;
+  width: 600px;
+}
+
+.imageSwap img {
+  max-width: 100%;
+}
+
+.messageSwap {
+  margin: auto;
+  width: 600px;
+  font-family: courier;
+  font-size: 18px;
+  margin-bottom: 100px;
+}
+.andrew {
+  display: none;
+  font-size: 100px;
+  margin: auto;
+}
