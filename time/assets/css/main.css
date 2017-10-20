@@ -9,14 +9,18 @@ body {
   font-family: palatino;
 }
 div {
-  margin: 15%;
+  margin: 18%;
 }
 
 
 div img {
   max-height: 300px;
   align-items: baseline;
+  margin-right: 5%;
+  max-width: 300px;
+
 }
+
 div div {
   margin: 5%;
 }
@@ -46,10 +50,14 @@ div div {
 }
 .left{
   justify-content: left;
+  padding-right: 10%;
+  text-align:left;
 
 }
 .right {
   justify-content: right;
+  padding-left: 10%;
+  text-align: right;
 }
 .textQuote{
   text-align: center;
