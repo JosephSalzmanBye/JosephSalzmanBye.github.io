@@ -17,7 +17,7 @@ div img {
 
 
   margin-right: 5%;
-  max-width: 270px;
+  max-width: 320px;
 
 }
 .margin{
@@ -82,11 +82,14 @@ div img {
 }
 .textImage {
   margin: 5%;
+
 }
 .imgAlign{
+
   display: inline-block;
   margin: 1%;
   vertical-align: bottom;
-  border: solid red 1px;
+  border: 2px solid black;
+  padding: 2%;
 
 }
