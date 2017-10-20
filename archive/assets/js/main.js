@@ -18,7 +18,7 @@ $(document).ready(function(){
     $('.item').addClass('hide');
 
     $('.item.green').removeClass('hide');
-    $('.item.green').addClass('show')
+    $('.item.green').addClass('show');
   });
 
   $('.nav_brown').click(function(){
@@ -26,7 +26,7 @@ $(document).ready(function(){
     $('.item').addClass('hide');
 
     $('.item.brown').removeClass('hide');
-    $('.item.brown').addClass('show')
+    $('.item.brown').addClass('show');
   });
 
   $('.nav_red').click(function(){
@@ -34,7 +34,7 @@ $(document).ready(function(){
     $('.item').addClass('hide');
 
     $('.item.red').removeClass('hide');
-    $('.item.red').addClass('show')
+    $('.item.red').addClass('show');
   });
 
 
@@ -43,7 +43,7 @@ $(document).ready(function(){
     $('.item').addClass('hide');
 
     $('.item.grey').removeClass('hide');
-    $('.item.grey').addClass('show')
+    $('.item.grey').addClass('show');
   });
 
 
