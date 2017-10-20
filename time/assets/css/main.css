@@ -14,9 +14,10 @@ body {
 
 div img {
   max-height: 300px;
-  align-items: baseline;
+
+
   margin-right: 5%;
-  max-width: 300px;
+  max-width: 270px;
 
 }
 .margin{
@@ -85,5 +86,7 @@ div img {
 .imgAlign{
   display: inline-block;
   margin: 1%;
+  vertical-align: bottom;
+  border: solid red 1px;
 
 }
