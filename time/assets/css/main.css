@@ -6,9 +6,20 @@
 /* Start here */
 
 body {
-
+  font-family: palatino;
+}
+div {
+  margin: 15%;
 }
 
+
+div img {
+  max-height: 300px;
+  align-items: baseline;
+}
+div div {
+  margin: 5%;
+}
 .time {
   font-size: 80px;
   text-align: center;
@@ -42,10 +53,18 @@ body {
 }
 .textQuote{
   text-align: center;
+  font-size: 15pt;
+  font-weight: bold;
 }
 .textHeading{
 
 }
 .textTitle {
   font-size: 50pt;
+}
+
+.textCaption {
+  font-size: 12pt;
+  font-style: italic;
+
 }

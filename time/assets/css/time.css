@@ -22,15 +22,15 @@ body.evenS.pm .sunset {
 /* Time CSS here */
 
 body.evenS {
-  background-color: #000;
+
 }
 
 body.oddS {
-  background-color: #fff;
+
 }
 
 body.evenS .time{
-  color: #fff;
+
 }
 body.am .imageSwap .sunrise{
  display: block;
@@ -57,10 +57,10 @@ body.am .imageSwap .eclipse{
  display: none;
 }
 body.friday {
-  background-color: yellow;
+
 }
 body.saturday {
-  background-color: red;
+
 }
 body.h5.quarterH.pm .andrew {
   display: block;
