@@ -20,3 +20,9 @@ body.evenS.pm .sunset {
 
 
 /* Time CSS here */
+.date {
+  display: none;
+}
+.date.show {
+  display: block;
+}

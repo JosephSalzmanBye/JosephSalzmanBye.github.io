@@ -64,4 +64,20 @@ $(document).ready(function() {
     $('textarea#timeClasses').show();
   });
 
+
+  $(".date").each(function() {
+    $(this).addClass("show");
+
+    var kill = $(this).attr("data-kill")
+    var now = moment();
+    var then = moment(kill);
+
+    if (now > then) {
+      $(this).html(' ');
+    } else {
+
+    }
+
+    });
+
 });
