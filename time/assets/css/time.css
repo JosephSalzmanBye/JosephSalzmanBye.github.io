@@ -24,5 +24,5 @@ body.evenS.pm .sunset {
   display: none;
 }
 .date.show {
-  display: block;
+  display: inline-block;
 }
