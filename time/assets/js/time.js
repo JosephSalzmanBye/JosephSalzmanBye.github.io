@@ -75,9 +75,6 @@ $(document).ready(function() {
     if (now > then) {
       $(this).html(' ');
     } else {
-
     }
-
     });
-
 });
