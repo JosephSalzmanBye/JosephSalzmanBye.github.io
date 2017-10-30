@@ -73,9 +73,27 @@ div img {
   border: 2px solid black;
   padding: 5px;
   font-size: 50pt;
+  width: 50%;
 }
+.lineLeft{
+  top: 50%;
+  height: 12000px;
+  width: 1%;
+  background-color: red;
+  margin-left: 25%;
+  position: absolute;
+  z-index: -100;
+}
+.lineRight{
 
-
+  top: 50%;
+  height: 12000px;
+  width: 1%;
+  background-color: gray;
+  margin-left: 74%;
+  position: absolute;
+  z-index: -100;
+}
 .textCaption {
   margin: 5%;
   font-size: 12pt;
@@ -83,7 +101,7 @@ div img {
 
 }
 .textImage {
-  margin: 5%;
+  margin: 20%;
 
 }
 .imgAlign{
@@ -103,7 +121,7 @@ div img {
   position: fixed;
   left: 88%;
   top: 5%;
-  line-height:25px;
+  line-height:45px;
 
 }
 a{
