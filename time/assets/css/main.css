@@ -66,15 +66,13 @@ div img {
   font-weight: bold;
   margin-left: 25%;
   margin-right: 25%;
-  padding: 10px;
-    border: 2px solid black;
+
 }
 .textHeading{
 
 }
 .textTitle {
-  border: 2px solid black;
-  padding: 5px;
+
   font-size: 50pt;
   width: 50%;
 }
@@ -112,7 +110,7 @@ div img {
   display: inline-block;
   margin: 1%;
   vertical-align: bottom;
-  border: 2px solid black;
+
   padding: 2%;
 }
 
@@ -127,9 +125,9 @@ div img {
   line-height:45px;
 
 }
-.textBody{
-    border: 2px solid black;
-    padding: 10px;
+.border{
+  border: 2px solid black;
+  padding: 10px;
 }
 a{
   color: black;
